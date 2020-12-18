@@ -1,5 +1,6 @@
 package org.test;
 
+import org.junit.BeforeClass;
 import org.junit.runner.RunWith;
 
 import cucumber.api.CucumberOptions;
@@ -11,5 +12,12 @@ import cucumber.api.junit.Cucumber;
 
 public class TestRunner {
 
-}
+	@BeforeClass
+	public void beforeClass() {
+		System.out.println("Rest Assured ");
+		System.out.println("hii");
+		System.out.println("dkbdbbssckn");
+		
+	}
 
+}
